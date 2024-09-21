@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicting Survival Rate of LSD Affected Cattle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Predicting Survival Rate of LSD Affected Cattle</h1>
+        <a href="about.html" class="about-link">About LSD</a> <!-- Link to the About page -->
+        <div id="initial-page">
+            <button id="start-predictions-btn">Start Predictions</button>
+        </div>
+        <div id="prediction-page" style="display: none;">
+            <p><h2>Upload a Side View Image of the Cattle</h2></p>
+            <input type="file" id="file" accept="image/*">
+            <div id="image-container"></div>
+            <div id="output-container" style="display: none;">
+                <p id="output"></p>
+            </div>
+            <div id="output-container1" style="display: none;">
+                <p id="output1"></p>
+            </div>
+            <div id="output-container2" style="display: none;">
+                <p id="output2"></p>
+            </div>
+            <div id="result-container1" style="display: none;">
+                <p id="result1"></p>
+            </div>
+            <div id="result-container2" style="display: none;">
+                <p id="result2"></p>
+            </div>
+            <div id="question-container">
+                <div id="question"></div>
+                <div id="options"></div>
+                <button id="next-btn">Next</button>
+            </div>
+            <div id="result-container" style="display: none;">
+                <p id="result"></p>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

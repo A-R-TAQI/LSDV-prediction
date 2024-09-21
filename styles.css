@@ -1,0 +1,153 @@
+/* styles.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    font-size: 48px; /* Increase the font size of the title */
+    font-family: Arial, sans-serif; /* Change the font family of the title */
+    font-weight: bold; /* Optionally, make the title bold */
+    color: white; /* Optionally, change the font color of the title */
+}
+.about-link {
+    position: absolute; /* Position the link absolutely within the container */
+    top: 20px; /* Adjust the top position */
+    right: 20px; /* Adjust the right position */
+    color: white; /* Set the text color to white */
+    text-decoration: none; /* Remove underline */
+}
+.image {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+#question-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#question {
+    font-size: 36px; /* Adjust the font size of the question */
+}
+
+#options {
+    margin-top: 30px;
+    display: flex; /* Set display to flex */
+    flex-direction: row; /* Set direction to row */
+    justify-content: center; /* Center the options horizontally */
+    flex-wrap: wrap; /* Allow options to wrap to the next line if needed */
+}
+
+button {
+    margin: 5px; /* Add margin to create space between options */
+    padding: 20px 30px; /* Adjust the padding to increase button size */
+    font-size: 16px; /* Adjust the font size of the options */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+
+input[type="range"] {
+    width: 100%; /* Make the slider fill the width of its container */
+    height: 30px; /* Adjust the height of the slider */
+    margin-top: 10px; /* Add margin to separate the slider from other elements */
+}
+
+#next-btn {
+    background-color: green; /* Set the background color to green */
+    color: white; /* Set the text color to white */
+    border: none; /* Remove the border */
+    padding: 20px 30px; /* Adjust the padding */
+    font-size: 16px; /* Adjust the font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-top: 20px;
+}
+
+#result-container {
+    margin-top: 40px;
+}
+/* styles.css */
+body {
+    background-image: url('bg.jpg'); /* Replace 'background-image.jpg' with the path to your image */
+    background-size: cover; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    color: white;
+}
+#result {
+    font-size: 48px; /* Increase the font size of the result text */
+}
+
+/* Add this CSS to style the start button */
+#start-predictions-btn {
+    background-color: #016006; /* Green */
+    border: none;
+    color: white;
+    padding: 25px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 200px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#start-predictions-btn:hover {
+    background-color: #45a049;
+}
+.fade-in {
+    animation: fadeIn 0.5s ease forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.file-container {
+    margin-bottom: 10px;
+}
+
+.file-label {
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.file-label:hover {
+    background-color: #0056b3;
+}
+
+.output1 {
+    margin-bottom: 20px;
+    font-size: 10px; 
+}
+
+.output-label {
+    font-weight: bold;
+}
+
+.output-text {
+    font-size: 18px; 
+}
+#output {
+    font-size: 24px; /* Adjust the font size as needed */
+}
+#output1 {
+    font-size: 24px; /* Adjust the font size as needed */
+}
+#output2 {
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
